@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #222222;
+    color: #f4f4f4;
+}
+
+/* Estilização dos slides */
+.mySlides {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background: #282828;
+    margin: 20px;
+    border: #F0811E solid 1px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Botões de navegação */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f0801e4a;
+    border: none;
+}
+
+.prev:active,
+.next:active {
+    background-color: #f0801e;
+    /* cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #F0811E;
+    border: none; */
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 10px;
+    margin-bottom: 30px;
+    font-family: "Lexend", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitulo {
+    background-color: #F0811E;
+    border-radius: 7px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: #222222;
+}
+
+.informacoesIntegrantes {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.fotoDanilo,
+.fotoEstevam {
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid #F0811E;
+    margin-bottom: 5px;
+}
+
+.imgAlfa {
+    width: 20px;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+.imgFluxo{
+    width: 100%;
+    height: 100%;
+}
+
+.imgBanlPlus{
+    width: 100%;
+}
+
+.mySlides ul {
+    text-align: left;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.mySlides li {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 1.6;
+}
