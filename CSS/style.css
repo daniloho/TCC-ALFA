@@ -134,12 +134,12 @@ hr {
     margin-bottom: 15px;
 }
 
-.imgFluxo{
+.imgFluxo {
     width: 100%;
     height: 100%;
 }
 
-.imgBanlPlus{
+.imgBanlPlus {
     width: 100%;
 }
 
@@ -153,4 +153,8 @@ hr {
     margin-bottom: 10px;
     font-size: 11px;
     line-height: 1.6;
+}
+
+a {
+    color: #f4f4f4;
 }
