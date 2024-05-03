@@ -138,7 +138,7 @@ hr {
     gap: 5px;
     justify-content: center;
     font-weight: 700;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     margin-bottom: 15px;
     padding: 10px 0;
